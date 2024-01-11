@@ -1,0 +1,4 @@
+{
+"client1":{"file_type":"csv","max_file_size":1048576,"max_files_number":10},
+"client2":{"file_type":"json","max_file_size":1048576,"max_files_number":5}
+}

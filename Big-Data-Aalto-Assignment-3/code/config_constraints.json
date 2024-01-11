@@ -1,0 +1,19 @@
+{"client1":{"VendorID":{"type":"int","min":1,"max":4},
+            "tpep_pickup_datetime":{"type":["unicode","str"]},
+            "tpep_dropoff_datetime":{"type":["unicode","str"]},
+            "store_and_fwd_flag":{"type":["unicode","str"]},
+            "PULocationID":{"type":"int","min":1,"max":265},
+            "DOLocationID":{"type":"int","min":1,"max":265},
+            "total_amount":{"type":["int","float"],"min":1},
+            "passenger_count":{"type":"int","min":0},
+            "trip_distance":{"type":["int","float"],"min":0},
+            "extra":{"type":["int","float"]},
+            "mta_tax":{"type":["int","float"]},
+            "tip_amount":{"type":["int","float"]},
+            "tolls_amount":{"type":["int","float"]},
+            "improvement_surcharge":{"type":["int","float"],"min":0},
+            "fare_amount":{"type":["int","float"],"min":0},
+            "RatecodeID":{"type":"int","min":1,"max":99},
+            "payment_type":{"type":"int","min":1,"max":5}
+           }
+}
